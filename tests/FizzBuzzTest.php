@@ -2,28 +2,41 @@
 
 namespace Qck\FizzBuzz;
 
+use Qck\FizzBuzz\Iterator\NumberIterator;
+use Qck\FizzBuzz\Resolver\FizzBuzzResolver;
+
 class FizzBuzzTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * @var FizzBuzz
      */
-    protected $skeleton;
+    protected $fizzbuzz;
 
     protected function setUp()
     {
         parent::setUp();
-        $this->skeleton = new FizzBuzz;
+        $this->fizzbuzz = new FizzBuzz(new FizzBuzzResolver);
     }
 
-    public function testNew()
+    public function test30()
     {
-        $actual = $this->skeleton;
-        $this->assertInstanceOf('\Qck\FizzBuzz\FizzBuzz', $actual);
+        $numbers = new NumberIterator(range(1, 30));
+        $results = $this->fizzbuzz->run($numbers);
+
+        $actual = implode(PHP_EOL, $results);
+        $expected = trim(file_get_contents(__DIR__ . '/Data/FizzBuzz/expected30.txt'));
+
+        $this->assertEquals($expected, $actual);
     }
 
-    public function testException()
+    public function test100()
     {
-        $this->setExpectedException('\Qck\FizzBuzz\Exception\LogicException');
-        throw new Exception\LogicException;
+        $numbers = new NumberIterator(range(1, 100));
+        $results = $this->fizzbuzz->run($numbers);
+
+        $actual = implode(PHP_EOL, $results);
+        $expected = trim(file_get_contents(__DIR__ . '/Data/FizzBuzz/expected100.txt'));
+
+        $this->assertEquals($expected, $actual);
     }
 }
