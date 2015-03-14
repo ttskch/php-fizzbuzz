@@ -1,0 +1,25 @@
+{
+    "name": "qck/fizzbuzz",
+    "description":" ",
+    "keywords":[
+    ],
+    "license": "BSD-3-Clause",
+    "autoload":{
+        "psr-4":{
+            "Qck\\FizzBuzz\\": "src/"
+        }
+    },
+    "autoload-dev":{
+        "psr-4":{
+            "Qck\\FizzBuzz\\": "tests/",
+            "Qck\\FizzBuzz\\": "tests/Fake"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "0.1.x-dev"
+        }
+    }
+}
