@@ -31,4 +31,18 @@ class Number implements ValueInterface
     {
         return $this->value % $number->getValue() === 0;
     }
+
+    public function contains(Number $number)
+    {
+        if ($number->getValue() > 10) {
+            throw new RuntimeException('"number" must be less than 10.');
+        }
+
+        foreach (str_split($this) as $digit) {
+            if (intval($digit) === $number->getValue()) {
+                return true;
+            }
+        }
+        return false;
+    }
 }
