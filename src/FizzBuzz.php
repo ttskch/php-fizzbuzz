@@ -1,9 +1,9 @@
 <?php
 
-namespace Qck\FizzBuzz;
+namespace Tch\FizzBuzz;
 
-use Qck\FizzBuzz\Iterator\NumberIterator;
-use Qck\FizzBuzz\Resolver\ResolverInterface;
+use Tch\FizzBuzz\Iterator\NumberIterator;
+use Tch\FizzBuzz\Resolver\ResolverInterface;
 
 class FizzBuzz
 {

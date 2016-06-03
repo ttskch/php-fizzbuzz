@@ -1,18 +1,17 @@
 {
-    "name": "qck/fizzbuzz",
+    "name": "ttskch/fizzbuzz",
     "description":" ",
     "keywords":[
     ],
     "license": "MIT",
     "autoload":{
         "psr-4":{
-            "Qck\\FizzBuzz\\": "src/"
+            "Tch\\FizzBuzz\\": "src/"
         }
     },
     "autoload-dev":{
         "psr-4":{
-            "Qck\\FizzBuzz\\": "tests/",
-            "Qck\\FizzBuzz\\": "tests/Fake"
+            "Tch\\FizzBuzz\\": ["tests/", "tests/Fake"]
         }
     },
     "extra": {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Qck\FizzBuzz\Value;
+namespace Tch\FizzBuzz\Value;
 
 class NumberTest extends \PHPUnit_Framework_TestCase
 {

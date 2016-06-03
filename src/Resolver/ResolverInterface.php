@@ -1,8 +1,8 @@
 <?php
 
-namespace Qck\FizzBuzz\Resolver;
+namespace Tch\FizzBuzz\Resolver;
 
-use Qck\FizzBuzz\Value\Number;
+use Tch\FizzBuzz\Value\Number;
 
 interface ResolverInterface
 {

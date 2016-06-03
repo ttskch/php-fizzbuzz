@@ -1,10 +1,10 @@
 <?php
 
-namespace Qck\FizzBuzz\Resolver;
+namespace Tch\FizzBuzz\Resolver;
 
-use Qck\FizzBuzz\Exception\RuntimeException;
-use Qck\FizzBuzz\Value\Number;
-use Qck\FizzBuzz\Value\Result;
+use Tch\FizzBuzz\Exception\RuntimeException;
+use Tch\FizzBuzz\Value\Number;
+use Tch\FizzBuzz\Value\Result;
 
 class NabeatsuResolver implements ResolverInterface
 {
