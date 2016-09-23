@@ -1,9 +1,9 @@
 <?php
 
-namespace Tch\FizzBuzz\Resolver;
+namespace Ttskch\FizzBuzz\Resolver;
 
-use Tch\FizzBuzz\Value\Number;
-use Tch\FizzBuzz\Value\Result;
+use Ttskch\FizzBuzz\Value\Number;
+use Ttskch\FizzBuzz\Value\Result;
 
 class FizzBuzzResolver implements ResolverInterface
 {

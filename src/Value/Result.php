@@ -1,6 +1,6 @@
 <?php
 
-namespace Tch\FizzBuzz\Value;
+namespace Ttskch\FizzBuzz\Value;
 
 class Result
 {

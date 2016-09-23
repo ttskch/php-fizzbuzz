@@ -6,12 +6,12 @@
     "license": "MIT",
     "autoload":{
         "psr-4":{
-            "Tch\\FizzBuzz\\": "src/"
+            "Ttskch\\FizzBuzz\\": "src/"
         }
     },
     "autoload-dev":{
         "psr-4":{
-            "Tch\\FizzBuzz\\": ["tests/", "tests/Fake"]
+            "Ttskch\\FizzBuzz\\": ["tests/", "tests/Fake"]
         }
     },
     "extra": {

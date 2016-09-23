@@ -1,10 +1,10 @@
 <?php
 /**
- * This file is part of the Tch.FizzBuzz
+ * This file is part of the Ttskch.FizzBuzz
  *
  * @license http://opensource.org/licenses/bsd-license.php BSD
  */
-namespace Tch\FizzBuzz\Exception;
+namespace Ttskch\FizzBuzz\Exception;
 
 class LogicException extends \LogicException implements ExceptionInterface
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Tch\FizzBuzz;
+namespace Ttskch\FizzBuzz;
 
-use Tch\FizzBuzz\Iterator\NumberIterator;
-use Tch\FizzBuzz\Resolver\FizzBuzzResolver;
-use Tch\FizzBuzz\Resolver\NabeatsuResolver;
+use Ttskch\FizzBuzz\Iterator\NumberIterator;
+use Ttskch\FizzBuzz\Resolver\FizzBuzzResolver;
+use Ttskch\FizzBuzz\Resolver\NabeatsuResolver;
 
 class FizzBuzzTest extends \PHPUnit_Framework_TestCase
 {

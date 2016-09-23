@@ -1,8 +1,8 @@
 <?php
 
-namespace Tch\FizzBuzz\Value;
+namespace Ttskch\FizzBuzz\Value;
 
-use Tch\FizzBuzz\Exception\RuntimeException;
+use Ttskch\FizzBuzz\Exception\RuntimeException;
 
 class Number implements ValueInterface
 {

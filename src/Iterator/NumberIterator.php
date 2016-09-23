@@ -1,8 +1,8 @@
 <?php
 
-namespace Tch\FizzBuzz\Iterator;
+namespace Ttskch\FizzBuzz\Iterator;
 
-use Tch\FizzBuzz\Value\Number;
+use Ttskch\FizzBuzz\Value\Number;
 
 class NumberIterator implements \IteratorAggregate
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Tch\FizzBuzz\Resolver;
+namespace Ttskch\FizzBuzz\Resolver;
 
-use Tch\FizzBuzz\Value\Number;
+use Ttskch\FizzBuzz\Value\Number;
 
 interface ResolverInterface
 {
